@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Image } from '@/components/ui/image';
 
 export default function Footer() {
   const quickLinks = [
@@ -23,12 +24,17 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
-                <span className="text-primary font-heading font-bold text-xl">PG</span>
+              <div className="w-16 h-16 flex items-center justify-center">
+                <Image
+                  src="https://static.wixstatic.com/media/2019fd_486bae4956e04def972fe83303774e9a~mv2.jpeg"
+                  alt="PGIMTECH Logo"
+                  className="w-full h-full object-contain"
+                  width={64}
+                />
               </div>
               <div className="flex flex-col">
-                <span className="font-heading font-bold text-xl">Pinnacle Global</span>
-                <span className="text-xs text-primary-foreground/80 font-paragraph">Shaping Future Leaders</span>
+                <span className="font-heading font-bold text-lg">PGIMTECH</span>
+                <span className="text-xs text-primary-foreground/80 font-paragraph">Pinnacle Global Institute</span>
               </div>
             </div>
             <p className="font-paragraph text-sm text-primary-foreground/90 leading-relaxed mb-6">

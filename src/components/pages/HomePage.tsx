@@ -108,10 +108,10 @@ export default function HomePage() {
 
   // Preserve original achievements data
   const achievements = [
-    { icon: Award, title: '25+ Years', description: 'Of Academic Excellence' },
-    { icon: Users, title: '10,000+', description: 'Alumni Network' },
-    { icon: BookOpen, title: '50+', description: 'Programs Offered' },
-    { icon: TrendingUp, title: '95%', description: 'Placement Rate' },
+    { icon: Award, title: '25+ Years', description: 'Of Academic Excellence', color: 'from-primary/20 to-primary/5' },
+    { icon: Users, title: '10,000+', description: 'Alumni Network', color: 'from-accent/20 to-accent/5' },
+    { icon: BookOpen, title: '50+', description: 'Programs Offered', color: 'from-primary/20 to-primary/5' },
+    { icon: TrendingUp, title: '95%', description: 'Placement Rate', color: 'from-accent/20 to-accent/5' },
   ];
 
   // --- Render ---
