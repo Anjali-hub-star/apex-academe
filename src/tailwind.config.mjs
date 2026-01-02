@@ -19,8 +19,8 @@ export default {
                 '9xl': ['8rem', { lineHeight: '1', letterSpacing: '-0.025em', fontWeight: '800' }],
             },
             fontFamily: {
-                heading: "cormorantgaramond",
-                paragraph: "lato-light"
+                heading: ["playfair-display-v2", "serif"],
+                paragraph: ["opensanshebrewcondensed-regular", "sans-serif"]
             },
             colors: {
                 'light-blue': '#ADD8E6',
