@@ -23,16 +23,16 @@ export default {
                 paragraph: ["opensanshebrewcondensed-regular", "sans-serif"]
             },
             colors: {
-                'light-blue': '#ADD8E6',
-                destructive: '#D32F2F',
-                'destructive-foreground': '#FFFFFF',
-                background: '#F9F9F9',
-                secondary: '#E0E0E0',
-                foreground: '#1A2B4A',
-                'secondary-foreground': '#1A2B4A',
-                'primary-foreground': '#FFFFFF',
-                primary: '#003D99',
-                accent: '#D4A574'
+                primary: "#052547ff",
+                "primary-foreground": "#FFFFFF",
+                secondary: "#E0E0E0",
+                "secondary-foreground": "#5c707bff",
+                background: "#F9F9F9",
+                "light-blue": "#ADD8E6",
+                destructive: "#D32F2F",
+                "destructive-foreground": "#FFFFFF",
+                foreground: "#1A2B4A",
+                accent: "#D4A574"
             },
         },
     },
