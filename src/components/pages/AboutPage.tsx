@@ -78,46 +78,47 @@ export default function AboutPage() {
       {/* Institute Overview */}
       <section className="py-24 px-6 lg:px-12">
         <div className="max-w-[100rem] mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-            >
-              <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6">
-                Our Story
-              </h2>
-              <div className="space-y-6 font-paragraph text-foreground/80 leading-relaxed">
-                <p>
-                  Pinnacle Global stands as a beacon of academic excellence, dedicated to nurturing the leaders and innovators of tomorrow. Established with a vision to provide world-class education, we have consistently maintained our commitment to fostering intellectual growth, critical thinking, and ethical leadership.
-                </p>
-                <p>
-                  Our institution combines rigorous academic programs with practical learning experiences, preparing students to excel in their chosen fields and make meaningful contributions to society. With state-of-the-art facilities, distinguished faculty, and a vibrant campus community, Pinnacle Global offers an unparalleled educational experience.
-                </p>
-                <p>
-                  We believe in holistic development, encouraging students to explore their passions, develop their talents, and build the skills necessary for success in an ever-evolving global landscape. Our alumni network spans the globe, with graduates making significant impacts in business, technology, public service, and beyond.
-                </p>
-              </div>
-            </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-12">
+              About d3st Pinnacle Global Group of Institutions, Karur
+            </h2>
+            <div className="space-y-6 font-paragraph text-foreground/80 leading-relaxed text-lg">
+              <p>
+                D3st Pinnacle Global Group of Institutions (PGGI) represents a transformative education initiative by d3st Pinnacle Global Educares Foundation, Karur (Tamil Nadu) - a registered not-for-profit trust committed to advancing quality education, skill development and entrepreneurship in India. The Group's primary vision is to establish an integrated educational ecosystem in Karur that enables continuous learning pathways - from pre-school to post-graduate professional education - while aligning with national and international academic and industry standards.
+              </p>
+              <p>
+                D3st Pinnacle Global Group of Institutions embodies a future-ready, community-driven education ecosystem that also aligns with the national priorities such as NEP 2020, Skill India and Make in India. By blending quality education, vocational training and entrepreneurship, PGGI aims to make Karur a regional hub for education and innovation - uplifting both the local economy and youth employability.
+              </p>
+              <p>
+                The vision of d3st Pinnacle Global Group of Institutions (PGGI) encapsulates its unwavering commitment to cultivating a generation of learners who possess the knowledge, adaptability and leadership needed to thrive in a rapidly transforming world. PGGI envisions a seamless educational ecosystem that fosters intellectual curiosity, ethical values, technological literacy and a lifelong pursuit of learning. With the comprehensive and ambitious roadmap, PGGI aims to transcends traditional educational boundaries.
+              </p>
+              <p>
+                D3st Pinnacle Global Group of Institutions (PGGI) operates with a clear social mandate - "Education for Empowerment and Employment." Beyond academic excellence, the Group is going to be instrumental in uplifting the local community in Karur and neighbouring districts like Erode, Trichy, Namakkal, Dindigul, Tirupur, etc. through education, skilling and social development initiatives. The community engagement and CSR frameworks are integral to the Group's mission of social inclusion, gender equity and rural transformation.
+              </p>
+            </div>
+          </motion.div>
 
-            <motion.div
-              className="relative"
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-            >
-              <div className="relative rounded-lg overflow-hidden shadow-2xl">
-                <Image
-                  src="https://static.wixstatic.com/media/2019fd_b62f36092a54457684eab7af95b33d58~mv2.png?originWidth=768&originHeight=448"
-                  alt="Pinnacle Global Campus"
-                  className="w-full h-[500px] object-cover"
-                  width={800}
-                />
-              </div>
-            </motion.div>
-          </div>
+          <motion.div
+            className="relative mt-16"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            <div className="relative rounded-lg overflow-hidden shadow-2xl">
+              <Image
+                src="https://static.wixstatic.com/media/2019fd_b62f36092a54457684eab7af95b33d58~mv2.png?originWidth=768&originHeight=448"
+                alt="Pinnacle Global Campus"
+                className="w-full h-[500px] object-cover"
+                width={800}
+              />
+            </div>
+          </motion.div>
         </div>
       </section>
 
