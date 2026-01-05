@@ -15,7 +15,7 @@ export interface Courses {
   courseName?: string;
   /** @wixFieldType text */
   shortDescription?: string;
-  /** @wixFieldType image */
+  /** @wixFieldType image - Contains image URL, render with <Image> component, NOT as text */
   courseImage?: string;
   /** @wixFieldType url */
   enrollmentUrl?: string;
@@ -44,7 +44,7 @@ export interface EventsandAnnouncements {
   time?: any;
   /** @wixFieldType text */
   location?: string;
-  /** @wixFieldType image */
+  /** @wixFieldType image - Contains image URL, render with <Image> component, NOT as text */
   image?: string;
   /** @wixFieldType text */
   eventType?: string;
@@ -63,7 +63,7 @@ export interface Facilities {
   _updatedDate?: Date;
   /** @wixFieldType text */
   facilityName?: string;
-  /** @wixFieldType image */
+  /** @wixFieldType image - Contains image URL, render with <Image> component, NOT as text */
   facilityImage?: string;
   /** @wixFieldType text */
   description?: string;
@@ -84,7 +84,7 @@ export interface GalleryPhotos {
   _id: string;
   _createdDate?: Date;
   _updatedDate?: Date;
-  /** @wixFieldType image */
+  /** @wixFieldType image - Contains image URL, render with <Image> component, NOT as text */
   photo?: string;
   /** @wixFieldType text */
   title?: string;
@@ -111,7 +111,7 @@ export interface Testimonials {
   testimonialText?: string;
   /** @wixFieldType text */
   role?: string;
-  /** @wixFieldType image */
+  /** @wixFieldType image - Contains image URL, render with <Image> component, NOT as text */
   personPhoto?: string;
   /** @wixFieldType date */
   dateGiven?: Date | string;
